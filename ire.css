@@ -1,0 +1,78 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+}
+@media screen and (max-width: 700px){
+  .profile_image {
+    display: none
+  }
+  h1 {
+    width: 100%;
+    text-align: left
+  }
+  _profile {
+    display: none
+}
+}
+
+.profile_image {
+  width: 35rem;
+}
+
+._profile {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    word-wrap: wrap
+}
+
+#back_to_top {
+    align-items: start;
+}
+
+.intro {
+    font-size: 2.5rem;
+    color:rgb(211, 106, 106);
+}
+
+.top {
+    background-color: rgb(211, 106, 106);
+    padding-bottom: 9.4vh;
+    padding-top: 9.45vh;
+    /* padding-bottom: 2cm; */
+    height: 1.5rem;
+    width: auto;
+}
+.topbar {
+    color: lightgray;
+    margin: 0.1rem;
+    padding: 0.1rem;
+    font-size: 1.25rem;
+    text-decoration:none;
+    /* float:right; */
+  }
+  
+  .topbar:hover {
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+
+  .navbar {
+    padding-left: 3rem;
+  }
+.journey {
+    justify-content: center;
+}
+.icon-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  right: 3%;
+  bottom: 3%;
+  cursor: pointer;
+}
+#contact_info img {
+  width: 1.2rem;
+}

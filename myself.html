@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"> <img src="back_arrow.jpg" width="40rem"/> </a>
+        <h1>Webpage Displaying the Existing media Element</h1>
+    </header>
+    <picture>
+        <source media="(min-width: 1024px)" src="Wallpaper_Desktop.jpg"/>
+        <source media="(min-width: 768px)" src="Wallpaper_tabs.jpg"/>
+        <source media="(max-width: 767px)" src="Wallpaper_Mobile.jpg"/>
+        <img src="Wallpaper_default.jpg" loading="lazy"/>
+        <figcaption>This is my favourite quote about the internet</figcaption>
+    </picture>
+<br> <br>
+    <video controls>
+        <source src="Hello.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video> <br/> </br>
+    <audio controls>
+        <source src="Limoblaze_-_Two_CeeNaija.com_.mp3" type="audio/mp3"/>
+        Your browser does not support the audio element.
+    </audio>
+    <figcaption>This is currently my favourite song</figcaption>
+    <a href="Table.html">Table</a>
+
+    <style type="text/css">
+        body {
+            background-color:rgba(0, 0, 255, 0.144);
+            font-family: Georgia;
+        }
+        video {
+            width: 25rem;
+            /* min-width: 15vh; */
+            border:3px solid white;
+            padding:1rem;
+            border-radius: 0.5rem;
+        }
+        picture {
+            display:block;
+            width: 21rem;
+            border: 3px solid white;
+            border-radius: 0.5rem;
+            padding: 2rem;
+        }
+        
+        
+        audio {
+            border:3px solid white;
+            padding:2rem;
+            border-radius: 0.5rem;
+        }
+    </style>
+</body>
+</html>
