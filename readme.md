@@ -1,1 +1,1 @@
-# This repository contains information about my Assignment, Assignment 1 & 2
+# This repository contains two Assignments given to me by my instructor at ALtSchool Africa
